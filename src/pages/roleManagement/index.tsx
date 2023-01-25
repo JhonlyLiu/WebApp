@@ -170,7 +170,7 @@ const RoleList = (props: Props) => {
         </Box>
         <Box className='actions-right' sx={{ display: 'flex', alignItems: 'center' }}>
           {/* Add User Button */}
-          <Button variant='contained' onClick={() => router.push('/CreateRole')}>
+          <Button variant='contained' onClick={() => router.push('/roleManagement/CreateRole')}>
             Add Role
           </Button>
         </Box>
@@ -201,7 +201,12 @@ const RoleList = (props: Props) => {
                     )}
                   </TableCell>
                   <TableCell align='center'>
-                    <Button size='small' variant='contained' href='/EditRole' sx={{ color: 'white!important' }}>
+                    <Button
+                      size='small'
+                      variant='contained'
+                      href='/roleManagement/EditRole'
+                      sx={{ color: 'white!important' }}
+                    >
                       Edit
                     </Button>
                     <Button

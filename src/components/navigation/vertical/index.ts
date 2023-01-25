@@ -30,11 +30,6 @@ const navigation = (): VerticalNavItemsType => {
     {
       title: 'Department Management',
       icon: ViewListOutline,
-      path: '/departmentManagement'
-    },
-    {
-      title: 'List Department',
-      icon: ViewListOutline,
       path: '/department-management/list-department'
     }
   ]
